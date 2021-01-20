@@ -1,0 +1,81 @@
+Classifier-30.pkl :
+(1500, 80, 80, 3)
+{0: 'Apple Braeburn', 1: 'Apple Golden', 2: 'Apple Granny Smith', 3: 'Apple Red', 4: 'Apple Red Delicious'}
+Accuracy with SVM: 29.111111
+
+Classifier-Test.pkl :
+C = 0.1
+(1500, 80, 80, 3)
+{0: 'Apple Braeburn', 1: 'Apple Golden', 2: 'Apple Granny Smith', 3: 'Apple Red', 4: 'Apple Red Delicious'}
+Accuracy with SVM: 34.000
+
+Classifier-Test-1.0.pkl :
+C = 1.0
+(1500, 80, 80, 3)
+{0: 'Apple Braeburn', 1: 'Apple Golden', 2: 'Apple Granny Smith', 3: 'Apple Red', 4: 'Apple Red Delicious'}
+Accuracy with SVM: 46.400
+
+classifierRF-Test-10-g.pkl :
+(1500, 80, 80, 3)
+{0: 'Apple Braeburn', 1: 'Apple Golden', 2: 'Apple Granny Smith', 3: 'Apple Red', 4: 'Apple Red Delicious'}
+Accuracy with SVM: 93.200
+
+==============================================
+
+classifierRF-Test-15-e.pkl :
+(1500, 80, 80, 3)
+{0: 'Apple Braeburn', 1: 'Apple Golden', 2: 'Apple Granny Smith', 3: 'Apple Red', 4: 'Apple Red Yellow'}
+Accuracy with SVM: 93.200
+
+classifierRF-Test-15-el.pkl :
+(1500, 80, 80, 3)
+{0: 'Apple Braeburn', 1: 'Apple Golden', 2: 'Apple Granny Smith', 3: 'Apple Red', 4: 'Apple Red Yellow'}
+Accuracy with SVM: 90.600
+
+
+==============================================
+
+classifierRFNew-Test-10-e.pkl :  Lumayaannnn
+(1500, 80, 80, 3)
+{0: 'Apple Braeburn', 1: 'Apple Golden', 2: 'Apple Granny Smith', 3: 'Apple Red', 4: 'Apple Red Yellow'}
+Accuracy with SVM: 96.600
+
+==============================================
+
+
+clfSVM-sigmoid-ovr.pkl
+(1500, 70, 70, 3)
+{0: 'Apple Braeburn', 1: 'Apple Golden', 2: 'Apple Granny Smith', 3: 'Apple Red', 4: 'Apple Red Yellow'}
+Accuracy with SVM: 73.200
+--- 168.320000172 seconds ---
+
+clfRF70-10-e.pkl : Bagus, tapi Random Forest
+(1500, 70, 70, 3)
+{0: 'Apple Braeburn', 1: 'Apple Golden', 2: 'Apple Granny Smith', 3: 'Apple Red', 4: 'Apple Red Yellow'}
+Accuracy with SVM: 96.800
+--- 137.542000055 seconds ---
+
+clfRF70-12-g.pkl : 
+(1500, 70, 70, 3)
+{0: 'Apple Braeburn', 1: 'Apple Golden', 2: 'Apple Granny Smith', 3: 'Apple Red', 4: 'Apple Red Yellow'}
+Accuracy with SVM: 95.600
+
+clfRF70-12-g-wcc.pkl :
+(1500, 70, 70, 3)
+{0: 'Apple Braeburn', 1: 'Apple Golden', 2: 'Apple Granny Smith', 3: 'Apple Red', 4: 'Apple Red Yellow'}
+Accuracy with SVM: 95.000
+--- 138.257999897 seconds ---
+Red mean=0.05799287272962924
+Green mean=0.06851899057653323
+Blue mean=0.08371468776573576
+Red std=0.051269292208866286
+Green std=0.06206439111475102
+Blue std=0.04970922560302157
+Value mean=0.19660255713539543
+Saturation mean=0.08829542787935522
+Hue mean=0.22174369483931436
+Value std=0.016366068329814763
+Saturation std=0.05679056724631742
+Hue std=0.029149793080551874
+Energy=0.0033481144154669574
+Entropy=0.01443431707524686
